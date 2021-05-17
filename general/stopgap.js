@@ -1,4 +1,4 @@
-const servers = {
+const idMap = {
   ["dion"]: "dion.kmd",
   ["ptx"]: "ptx.kmd",
   ["zilla"]: "zilla.kmd",
@@ -89,6 +89,11 @@ const assumeCurrencyId = function (ticker) {
   }
 }
 
+const assumeTicker = function (currencyId) {
+  return currencyId.split(".").find(x => x !== "")
+}
+
 module.exports = {
-  assumeCurrencyId
+  assumeCurrencyId,
+  assumeTicker
 }
