@@ -1,0 +1,8 @@
+{
+  "name": "verus-wallet-endpoints",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/michaeltout/verus-wallet-endpoints.git",
+  "author": "michaeltout",
+  "license": "MIT"
+}
