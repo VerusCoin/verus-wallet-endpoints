@@ -182,7 +182,7 @@ const servers = {
   [".zcl"]: ["electrum1.cipig.net:10055:tcp", "electrum2.cipig.net:10055:tcp"],
   [".hodlc"]: ["hodl.amit.systems:17989:tcp", "hodl2.amit.systems:17898:tcp"],
   [".suqa"]: ["electrum1.suqa.org:12159:tcp", "electrum2.suqa.org:12159:tcp"],
-  [".btx"]: ["ele1.bitcore.cc:50002:tcp", "ele2.bitcore.cc:50002:tcp"],
+  [".btx"]: ["ele1.bitcore.cc:50002:ssl", "ele2.bitcore.cc:50002:ssl"],
   [".btcz"]: ["electrum1.cipig.net:10056:tcp", "electrum2.cipig.net:10056:tcp"],
   [".grs"]: [
     "electrum1.groestlcoin.org:50002:ssl",
