@@ -88,3 +88,7 @@ const assumeCurrencyId = function (ticker) {
     return tickerLc
   }
 }
+
+module.exports = {
+  assumeCurrencyId
+}
