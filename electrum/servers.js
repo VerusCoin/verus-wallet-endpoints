@@ -165,7 +165,7 @@ const servers = {
   [".sib"]: ["electrum1.cipig.net:10050:tcp", "electrum2.cipig.net:10050:tcp"],
   [".bch"]: [
     "bch.imaginary.cash:50001:tcp",
-    "wallet.satoshiscoffeehouse.com:50001:tcp",
+    "electrum.imaginary.cash:50001:tcp",
   ],
   ["chips.kmd"]: [
     "electrum1.cipig.net:10053:tcp",
